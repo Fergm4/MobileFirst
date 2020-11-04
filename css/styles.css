@@ -417,7 +417,7 @@ main{
     box-shadow: 0 4px 8px rgba(89,73,30, 0.16);
 }
 
-.recomendado{
+.recomendado, .basic, .plus{
     position: absolute;
     width: 120px;
     height: 31px;
@@ -428,6 +428,13 @@ main{
     background-color: var(--bitcoin-orange);
     border-radius: 8px;
     color: var(--just-white);
+}
+
+.basic{
+    background-color: var(--secondary-blue);
+}
+.plus{
+    background-color: #06d6a0;
 }
 
 .plan-card--title{
@@ -455,7 +462,7 @@ main{
     font-size: 1.2rem;
 }
 
-.plan-card--ca{
+.plan-card--ca, .plan-card--ca_basic, .plan-card--ca_plus{
     background-color: var(--off-white);
     margin-top: 20px;
     color: var(--warm-black);
@@ -467,6 +474,12 @@ main{
     font-weight: bold; 
     line-height: 1.8rem;
     font-family: DM Sans;
+}
+.plan-card--ca_basic{
+    border: 2px solid var(--secondary-blue); 
+}
+.plan-card--ca_plus{
+    border: 2px solid #06d6a0; 
 }
 
 .plan-card--ca span{
