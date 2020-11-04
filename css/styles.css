@@ -153,6 +153,7 @@ main{
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
+    margin-bottom: 30px;
 }
 
 .main-currency-table .currency-table--title{
