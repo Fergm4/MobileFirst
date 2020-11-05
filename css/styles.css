@@ -379,6 +379,7 @@ main{
     min-width: 320px;
     padding-bottom: 70px;
     text-align: center;
+    height: 535px;
 }
 
 .plans--title{
@@ -503,5 +504,37 @@ main{
     height: 20px;
     background-image: url('../assets/icons/arrow-right1.svg');
     vertical-align: text-bottom;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+    /* padding: 30px; */
+}
+
+footer section{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lawngreen; */
+}
+
+footer .left ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.left li{
+    margin: 10px 0;
+}
+
+.left a{
+    text-decoration: none;
+    color: var(--just-white);
 }
 
