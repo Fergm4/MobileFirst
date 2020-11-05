@@ -384,7 +384,7 @@ main{
 .plans--title{
     width: 90%;
     min-width: 288px;
-    height: auto;
+    height: 150px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -407,16 +407,18 @@ main{
 
 .plans-container--slider{
     display: flex;
-    height: 316px;
+    height: 336px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    background-color: var(--soft-blue);
 }
+
 .plans-container--card{
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
     margin: 50px 10px 0;
