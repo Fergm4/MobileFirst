@@ -28,6 +28,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: var(--off-white);
+}
+
 header{
     position: relative;
     display: flex;
@@ -538,3 +542,64 @@ footer .left ul{
     color: var(--just-white);
 }
 
+@media (min-width: 720px){
+    .main-tables-container{
+        /* background-color: lightcoral; */
+        display: flex;
+        max-width: 730px;
+        margin: 0 auto;
+    }
+
+    .main-currency-table{
+        padding: 0 5px;
+    }
+    .main-tables-container .currency-table--title{
+        width: 150px;
+        text-align: center;
+        /* background-color: darkblue; */
+    }
+    .main-tables-container .commissions-table--title{
+        width: 150px;
+        text-align: center;
+    }
+
+    .main-tables-container .currency-table--container{
+        margin-left: 40px;
+    }
+
+    .main-tables-container .commissions-table--container{
+        margin-right: 40px;
+    }
+
+    .product-cards--container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        max-width: 870px;
+        margin: 0 auto;
+    }
+    .product-cards--container .product-detail--card{
+        width: calc(50% - 20px);
+        margin: 10px;
+    }
+
+    .plans-container--slider{
+        width: 100%;
+        background-color: var(--off-white);
+        max-width: 950px;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 18px;
+        height: auto;
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 1024px){
+    .header__title__container h1{
+        font-size: 3.1rem;
+    }
+}
